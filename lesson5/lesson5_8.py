@@ -8,7 +8,7 @@ async def main():
     schema = {
         "name":"台幣匯率",
         "baseSelector": "table[title='牌告匯率'] tr",
-        #"baseSelector": "#ie11andabove > div > table > tbody > tr",
+        #"baseSelector": "#ie11andabove > div > table > tbody > tr",   #Copy/Copy xpath
         "fields":[
             {
                 "name": "幣別",
